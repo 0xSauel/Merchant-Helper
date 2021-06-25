@@ -1,6 +1,6 @@
 {
     "files": {
-        "index.js": "54c2aa992257fba2ba4c32216cc328c036118a750e12eee7ab2db2f013a75d41",
+        "index.js": "df581d3e25f1e6825efda622f57d654f9bad4e0036c10219bbeee3087793c1b2",
         "module.json": "a5da32aafc0644da5bb8ea235d1ab5bf78c1f45baff1b7af3f0a5e84469f1935",
         "settings_migrator_DE.js": "658ce380880509ecefd30c371552edb13bb899154e1051aa046651600363b501",
         "settings_migrator_EN.js": "4eca7870a2f8acaf309ec10269048a1ac455c4f8a207ec551c2ed8edf56efa71"
@@ -8,8 +8,8 @@
     "defs": {
         "S_DESPAWN_DROPITEM": 4,
         "S_DESPAWN_NPC": 3,
-        "S_SPAWN_DROPITEM": 8,
-        "S_SPAWN_NPC": 11,
+        "S_SPAWN_DROPITEM": 9,
+        "S_SPAWN_NPC": 12,
         "S_SYSTEM_MESSAGE": 1
     }
 }

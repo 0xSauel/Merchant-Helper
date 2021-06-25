@@ -88,7 +88,7 @@ module.exports = function MerchantHelper(mod) {
 		mobid = []
 	})
 	
-	mod.hook('S_SPAWN_NPC', 11, (event) => {
+	mod.hook('S_SPAWN_NPC', 12, (event) => {
 		if (!mod.settings.enabled) return
 		
 		whichBoss(event.huntingZoneId, event.templateId)
@@ -221,7 +221,7 @@ module.exports = function MerchantHelper(mod) {
 	}
 	
 	function spawnItem(gameId, loc) {
-		mod.send('S_SPAWN_DROPITEM', 8, {
+		mod.send('S_SPAWN_DROPITEM', 9, {
 			gameId: gameId*10n,
 			loc: loc,
 			item: mod.settings.itemId,
